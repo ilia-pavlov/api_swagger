@@ -1,6 +1,6 @@
 import requests
 
-payload = {'username': 'corey', 'password': 'testing'}
+payload = {'username': 'Johny', 'password': 'testing'}
 r = requests.post('http://httpbin.org/post', data=payload)
 
 print(r.text)
